@@ -1,0 +1,15 @@
+Js has only 1 call stack. It is very fast. 
+Can  achieve asyn for Js. Don't block main thread 
+
+If you want to differ some code a code that is not important maybe some content on the 4th page do 
+
+
+console.log("start")
+
+function cb(){
+    console.log("4th page content")
+}
+
+setTimeout(cb,0);
+
+console.log("end ");
