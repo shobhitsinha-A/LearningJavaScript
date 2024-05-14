@@ -14,7 +14,7 @@ var b = function () {
     console.log("b called")
 }
 // will give TypeError: b is not a function if a and b are called above both functions 
-// major difference is hosting (b is treated as anyother variable until the code hits line 14)
+// major difference is hosting (b is treated as anyother variable until the code hits line 13)
 b();
 
 //Anonymous function

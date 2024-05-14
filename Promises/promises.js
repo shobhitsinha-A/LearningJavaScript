@@ -17,7 +17,7 @@ user.then(function(data){
 //3 states of promise pending, fulfilled, rejected 
 // promise objects are immutable 
 
-// what is promise: placeholder for certain period of time until we recieve a value from a sync function
+// what is promise: placeholder for certain period of time until we recieve a value from async function
 // container for future value
 // object representing the eventual completion or failure of a async operation 
 
